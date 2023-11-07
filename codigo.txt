@@ -1,0 +1,36 @@
+/*
+const videojuegos = [
+    {nombre: "Minecraft", genero:"Aventura", calificación:9},
+    {nombre: "Fortnite", genero:"Battle Royale", calificación:10},
+    {nombre: "Valorant", genero:"Battle Royale", calificación:6}
+    
+    ];
+    
+    const agregarEtiqueta = videojuegos.map(function(videojuego){
+        const Etiqueta = "Excelente juego"
+    return videojuego.nombre + Etiqueta;
+        
+    })
+    
+    console.log(agregarEtiqueta)
+    */
+   /*
+    const libros = [
+        {titulo: "El Hobbit", autor:"JRR Tolkien", paginas:200 },
+        {titulo: "Fukun Dapan", autor:"Tomas Pebe", paginas: 375},
+        {titulo: "Diego Maradona", autor:"Diego Maradona", paginas: 400},
+        ];
+        
+        const librosLargos = libros.filter(function(libro){
+           return libro.paginas > 300 
+        })
+        
+        console.log(librosLargos)
+        */
+        let paises = ["Argentina", "Tailandia", "Finlandia"];
+        
+        
+        paises.forEach(function(pais){
+            console.log(pais);
+        });
+        
